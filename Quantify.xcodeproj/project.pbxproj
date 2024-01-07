@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		55E387BF2B48CDF100147F6B /* CountingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E387BE2B48CDF100147F6B /* CountingApp.swift */; };
+		55E387BF2B48CDF100147F6B /* QuantifyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E387BE2B48CDF100147F6B /* QuantifyApp.swift */; };
 		55E387C12B48CDF100147F6B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E387C02B48CDF100147F6B /* ContentView.swift */; };
 		55E387C32B48CDF200147F6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55E387C22B48CDF200147F6B /* Assets.xcassets */; };
 		55E387C62B48CDF200147F6B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55E387C52B48CDF200147F6B /* Preview Assets.xcassets */; };
-		55E387D02B48CDF200147F6B /* CountingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E387CF2B48CDF200147F6B /* CountingTests.swift */; };
-		55E387DA2B48CDF200147F6B /* CountingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E387D92B48CDF200147F6B /* CountingUITests.swift */; };
-		55E387DC2B48CDF200147F6B /* CountingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E387DB2B48CDF200147F6B /* CountingUITestsLaunchTests.swift */; };
+		55E387D02B48CDF200147F6B /* QuantifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E387CF2B48CDF200147F6B /* QuantifyTests.swift */; };
+		55E387DA2B48CDF200147F6B /* QuantifyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E387D92B48CDF200147F6B /* QuantifyUITests.swift */; };
+		55E387DC2B48CDF200147F6B /* QuantifyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E387DB2B48CDF200147F6B /* QuantifyUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,16 +34,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		55E387BB2B48CDF100147F6B /* Counting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Counting.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		55E387BE2B48CDF100147F6B /* CountingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountingApp.swift; sourceTree = "<group>"; };
+		55E387BB2B48CDF100147F6B /* Quantify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quantify.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55E387BE2B48CDF100147F6B /* QuantifyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuantifyApp.swift; sourceTree = "<group>"; };
 		55E387C02B48CDF100147F6B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		55E387C22B48CDF200147F6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55E387C52B48CDF200147F6B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		55E387CB2B48CDF200147F6B /* CountingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CountingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		55E387CF2B48CDF200147F6B /* CountingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountingTests.swift; sourceTree = "<group>"; };
-		55E387D52B48CDF200147F6B /* CountingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CountingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		55E387D92B48CDF200147F6B /* CountingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountingUITests.swift; sourceTree = "<group>"; };
-		55E387DB2B48CDF200147F6B /* CountingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		55E387CB2B48CDF200147F6B /* QuantifyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuantifyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55E387CF2B48CDF200147F6B /* QuantifyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuantifyTests.swift; sourceTree = "<group>"; };
+		55E387D52B48CDF200147F6B /* QuantifyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuantifyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55E387D92B48CDF200147F6B /* QuantifyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuantifyUITests.swift; sourceTree = "<group>"; };
+		55E387DB2B48CDF200147F6B /* QuantifyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuantifyUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,9 +74,9 @@
 		55E387B22B48CDF100147F6B = {
 			isa = PBXGroup;
 			children = (
-				55E387BD2B48CDF100147F6B /* Counting */,
-				55E387CE2B48CDF200147F6B /* CountingTests */,
-				55E387D82B48CDF200147F6B /* CountingUITests */,
+				55E387BD2B48CDF100147F6B /* Quantify */,
+				55E387CE2B48CDF200147F6B /* QuantifyTests */,
+				55E387D82B48CDF200147F6B /* QuantifyUITests */,
 				55E387BC2B48CDF100147F6B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -84,22 +84,22 @@
 		55E387BC2B48CDF100147F6B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				55E387BB2B48CDF100147F6B /* Counting.app */,
-				55E387CB2B48CDF200147F6B /* CountingTests.xctest */,
-				55E387D52B48CDF200147F6B /* CountingUITests.xctest */,
+				55E387BB2B48CDF100147F6B /* Quantify.app */,
+				55E387CB2B48CDF200147F6B /* QuantifyTests.xctest */,
+				55E387D52B48CDF200147F6B /* QuantifyUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		55E387BD2B48CDF100147F6B /* Counting */ = {
+		55E387BD2B48CDF100147F6B /* Quantify */ = {
 			isa = PBXGroup;
 			children = (
-				55E387BE2B48CDF100147F6B /* CountingApp.swift */,
+				55E387BE2B48CDF100147F6B /* QuantifyApp.swift */,
 				55E387C02B48CDF100147F6B /* ContentView.swift */,
 				55E387C22B48CDF200147F6B /* Assets.xcassets */,
 				55E387C42B48CDF200147F6B /* Preview Content */,
 			);
-			path = Counting;
+			path = Quantify;
 			sourceTree = "<group>";
 		};
 		55E387C42B48CDF200147F6B /* Preview Content */ = {
@@ -110,29 +110,29 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		55E387CE2B48CDF200147F6B /* CountingTests */ = {
+		55E387CE2B48CDF200147F6B /* QuantifyTests */ = {
 			isa = PBXGroup;
 			children = (
-				55E387CF2B48CDF200147F6B /* CountingTests.swift */,
+				55E387CF2B48CDF200147F6B /* QuantifyTests.swift */,
 			);
-			path = CountingTests;
+			path = QuantifyTests;
 			sourceTree = "<group>";
 		};
-		55E387D82B48CDF200147F6B /* CountingUITests */ = {
+		55E387D82B48CDF200147F6B /* QuantifyUITests */ = {
 			isa = PBXGroup;
 			children = (
-				55E387D92B48CDF200147F6B /* CountingUITests.swift */,
-				55E387DB2B48CDF200147F6B /* CountingUITestsLaunchTests.swift */,
+				55E387D92B48CDF200147F6B /* QuantifyUITests.swift */,
+				55E387DB2B48CDF200147F6B /* QuantifyUITestsLaunchTests.swift */,
 			);
-			path = CountingUITests;
+			path = QuantifyUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		55E387BA2B48CDF100147F6B /* Counting */ = {
+		55E387BA2B48CDF100147F6B /* Quantify */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 55E387DF2B48CDF200147F6B /* Build configuration list for PBXNativeTarget "Counting" */;
+			buildConfigurationList = 55E387DF2B48CDF200147F6B /* Build configuration list for PBXNativeTarget "Quantify" */;
 			buildPhases = (
 				55E387B72B48CDF100147F6B /* Sources */,
 				55E387B82B48CDF100147F6B /* Frameworks */,
@@ -142,14 +142,14 @@
 			);
 			dependencies = (
 			);
-			name = Counting;
+			name = Quantify;
 			productName = Counting;
-			productReference = 55E387BB2B48CDF100147F6B /* Counting.app */;
+			productReference = 55E387BB2B48CDF100147F6B /* Quantify.app */;
 			productType = "com.apple.product-type.application";
 		};
-		55E387CA2B48CDF200147F6B /* CountingTests */ = {
+		55E387CA2B48CDF200147F6B /* QuantifyTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 55E387E22B48CDF200147F6B /* Build configuration list for PBXNativeTarget "CountingTests" */;
+			buildConfigurationList = 55E387E22B48CDF200147F6B /* Build configuration list for PBXNativeTarget "QuantifyTests" */;
 			buildPhases = (
 				55E387C72B48CDF200147F6B /* Sources */,
 				55E387C82B48CDF200147F6B /* Frameworks */,
@@ -160,14 +160,14 @@
 			dependencies = (
 				55E387CD2B48CDF200147F6B /* PBXTargetDependency */,
 			);
-			name = CountingTests;
+			name = QuantifyTests;
 			productName = CountingTests;
-			productReference = 55E387CB2B48CDF200147F6B /* CountingTests.xctest */;
+			productReference = 55E387CB2B48CDF200147F6B /* QuantifyTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		55E387D42B48CDF200147F6B /* CountingUITests */ = {
+		55E387D42B48CDF200147F6B /* QuantifyUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 55E387E52B48CDF200147F6B /* Build configuration list for PBXNativeTarget "CountingUITests" */;
+			buildConfigurationList = 55E387E52B48CDF200147F6B /* Build configuration list for PBXNativeTarget "QuantifyUITests" */;
 			buildPhases = (
 				55E387D12B48CDF200147F6B /* Sources */,
 				55E387D22B48CDF200147F6B /* Frameworks */,
@@ -178,9 +178,9 @@
 			dependencies = (
 				55E387D72B48CDF200147F6B /* PBXTargetDependency */,
 			);
-			name = CountingUITests;
+			name = QuantifyUITests;
 			productName = CountingUITests;
-			productReference = 55E387D52B48CDF200147F6B /* CountingUITests.xctest */;
+			productReference = 55E387D52B48CDF200147F6B /* QuantifyUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -206,7 +206,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 55E387B62B48CDF100147F6B /* Build configuration list for PBXProject "Counting" */;
+			buildConfigurationList = 55E387B62B48CDF100147F6B /* Build configuration list for PBXProject "Quantify" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -219,9 +219,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				55E387BA2B48CDF100147F6B /* Counting */,
-				55E387CA2B48CDF200147F6B /* CountingTests */,
-				55E387D42B48CDF200147F6B /* CountingUITests */,
+				55E387BA2B48CDF100147F6B /* Quantify */,
+				55E387CA2B48CDF200147F6B /* QuantifyTests */,
+				55E387D42B48CDF200147F6B /* QuantifyUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,7 +258,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				55E387C12B48CDF100147F6B /* ContentView.swift in Sources */,
-				55E387BF2B48CDF100147F6B /* CountingApp.swift in Sources */,
+				55E387BF2B48CDF100147F6B /* QuantifyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55E387D02B48CDF200147F6B /* CountingTests.swift in Sources */,
+				55E387D02B48CDF200147F6B /* QuantifyTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +274,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55E387DC2B48CDF200147F6B /* CountingUITestsLaunchTests.swift in Sources */,
-				55E387DA2B48CDF200147F6B /* CountingUITests.swift in Sources */,
+				55E387DC2B48CDF200147F6B /* QuantifyUITestsLaunchTests.swift in Sources */,
+				55E387DA2B48CDF200147F6B /* QuantifyUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,12 +284,12 @@
 /* Begin PBXTargetDependency section */
 		55E387CD2B48CDF200147F6B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 55E387BA2B48CDF100147F6B /* Counting */;
+			target = 55E387BA2B48CDF100147F6B /* Quantify */;
 			targetProxy = 55E387CC2B48CDF200147F6B /* PBXContainerItemProxy */;
 		};
 		55E387D72B48CDF200147F6B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 55E387BA2B48CDF100147F6B /* Counting */;
+			target = 55E387BA2B48CDF100147F6B /* Quantify */;
 			targetProxy = 55E387D62B48CDF200147F6B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -421,7 +421,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Counting/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Quantify/Preview Content\"";
 				DEVELOPMENT_TEAM = JD2244SW57;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -435,7 +435,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.redeagle.Counting;
+				PRODUCT_BUNDLE_IDENTIFIER = com.redeagle.Quantify;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -450,7 +450,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Counting/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Quantify/Preview Content\"";
 				DEVELOPMENT_TEAM = JD2244SW57;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -464,7 +464,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.redeagle.Counting;
+				PRODUCT_BUNDLE_IDENTIFIER = com.redeagle.Quantify;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -488,7 +488,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Counting.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Counting";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quantify.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Quantify";
 			};
 			name = Debug;
 		};
@@ -508,7 +508,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Counting.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Counting";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quantify.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Quantify";
 			};
 			name = Release;
 		};
@@ -551,7 +551,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		55E387B62B48CDF100147F6B /* Build configuration list for PBXProject "Counting" */ = {
+		55E387B62B48CDF100147F6B /* Build configuration list for PBXProject "Quantify" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				55E387DD2B48CDF200147F6B /* Debug */,
@@ -560,7 +560,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		55E387DF2B48CDF200147F6B /* Build configuration list for PBXNativeTarget "Counting" */ = {
+		55E387DF2B48CDF200147F6B /* Build configuration list for PBXNativeTarget "Quantify" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				55E387E02B48CDF200147F6B /* Debug */,
@@ -569,7 +569,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		55E387E22B48CDF200147F6B /* Build configuration list for PBXNativeTarget "CountingTests" */ = {
+		55E387E22B48CDF200147F6B /* Build configuration list for PBXNativeTarget "QuantifyTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				55E387E32B48CDF200147F6B /* Debug */,
@@ -578,7 +578,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		55E387E52B48CDF200147F6B /* Build configuration list for PBXNativeTarget "CountingUITests" */ = {
+		55E387E52B48CDF200147F6B /* Build configuration list for PBXNativeTarget "QuantifyUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				55E387E62B48CDF200147F6B /* Debug */,
