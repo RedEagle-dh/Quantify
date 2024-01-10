@@ -52,14 +52,12 @@ class DataManager: ObservableObject {
 @main
 struct CountingApp: App {
     @StateObject var dataManager = DataManager()
-    @StateObject var languageManager = LanguageManager()
     @Environment(\.scenePhase) var scenePhase
     
     var body: some Scene {
         WindowGroup {
             ContentView()
                 .environmentObject(dataManager)
-                .environmentObject(languageManager)
                 .onChange(of: scenePhase) { oldPhase, newPhase in
                     switch newPhase {
                     case .active:

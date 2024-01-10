@@ -14,10 +14,11 @@
 		551D61C12B4E2E250066F1F1 /* AppVersionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551D61C02B4E2E250066F1F1 /* AppVersionManager.swift */; };
 		551D61C32B4E3DD30066F1F1 /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551D61C22B4E3DD30066F1F1 /* CategoryView.swift */; };
 		551D61C62B4E4ED20066F1F1 /* NewCategoryModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551D61C52B4E4ED20066F1F1 /* NewCategoryModalView.swift */; };
-		551D61C82B4E4F150066F1F1 /* SettingsModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551D61C72B4E4F150066F1F1 /* SettingsModalView.swift */; };
 		551D61CA2B4E56670066F1F1 /* AppAppearanceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551D61C92B4E56670066F1F1 /* AppAppearanceManager.swift */; };
 		551D61CD2B4E59150066F1F1 /* ThemeChangeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551D61CC2B4E59150066F1F1 /* ThemeChangeView.swift */; };
-		55BB4E932B4E67AD00836422 /* LanguageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BB4E922B4E67AD00836422 /* LanguageManager.swift */; };
+		55BB4E962B4EE46400836422 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BB4E952B4EE46400836422 /* SettingsView.swift */; };
+		55BB4E982B4F4ACF00836422 /* BugFixModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BB4E972B4F4ACF00836422 /* BugFixModal.swift */; };
+		55BB4E9A2B4F4E5600836422 /* AppInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BB4E992B4F4E5600836422 /* AppInfoView.swift */; };
 		55E387BF2B48CDF100147F6B /* QuantifyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E387BE2B48CDF100147F6B /* QuantifyApp.swift */; };
 		55E387C12B48CDF100147F6B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E387C02B48CDF100147F6B /* ContentView.swift */; };
 		55E387C32B48CDF200147F6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55E387C22B48CDF200147F6B /* Assets.xcassets */; };
@@ -45,17 +46,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		551D61B12B4E27ED0066F1F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Localizable.strings; sourceTree = "<group>"; };
-		551D61B62B4E28340066F1F1 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = Localizable.strings; sourceTree = "<group>"; };
 		551D61B92B4E28450066F1F1 /* hu */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hu; path = Localizable.strings; sourceTree = "<group>"; };
 		551D61BD2B4E2C2A0066F1F1 /* UpdateModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateModalView.swift; sourceTree = "<group>"; };
 		551D61C02B4E2E250066F1F1 /* AppVersionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppVersionManager.swift; sourceTree = "<group>"; };
 		551D61C22B4E3DD30066F1F1 /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
 		551D61C52B4E4ED20066F1F1 /* NewCategoryModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCategoryModalView.swift; sourceTree = "<group>"; };
-		551D61C72B4E4F150066F1F1 /* SettingsModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsModalView.swift; sourceTree = "<group>"; };
 		551D61C92B4E56670066F1F1 /* AppAppearanceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAppearanceManager.swift; sourceTree = "<group>"; };
 		551D61CC2B4E59150066F1F1 /* ThemeChangeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeChangeView.swift; sourceTree = "<group>"; };
-		55BB4E922B4E67AD00836422 /* LanguageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageManager.swift; sourceTree = "<group>"; };
+		55BB4E952B4EE46400836422 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		55BB4E972B4F4ACF00836422 /* BugFixModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BugFixModal.swift; sourceTree = "<group>"; };
+		55BB4E992B4F4E5600836422 /* AppInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInfoView.swift; sourceTree = "<group>"; };
+		55BB4EA12B4F532D00836422 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Localizable.strings; sourceTree = "<group>"; };
+		55BB4EA22B4F532D00836422 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = Localizable.strings; sourceTree = "<group>"; };
 		55E387BB2B48CDF100147F6B /* Quantify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quantify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55E387BE2B48CDF100147F6B /* QuantifyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuantifyApp.swift; sourceTree = "<group>"; };
 		55E387C02B48CDF100147F6B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -134,6 +136,8 @@
 				551D61C42B4E4EC30066F1F1 /* Modals */,
 				55E387C02B48CDF100147F6B /* ContentView.swift */,
 				551D61C22B4E3DD30066F1F1 /* CategoryView.swift */,
+				55BB4E952B4EE46400836422 /* SettingsView.swift */,
+				55BB4E992B4F4E5600836422 /* AppInfoView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -143,7 +147,6 @@
 			children = (
 				551D61C02B4E2E250066F1F1 /* AppVersionManager.swift */,
 				551D61C92B4E56670066F1F1 /* AppAppearanceManager.swift */,
-				55BB4E922B4E67AD00836422 /* LanguageManager.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -153,7 +156,7 @@
 			children = (
 				551D61BD2B4E2C2A0066F1F1 /* UpdateModalView.swift */,
 				551D61C52B4E4ED20066F1F1 /* NewCategoryModalView.swift */,
-				551D61C72B4E4F150066F1F1 /* SettingsModalView.swift */,
+				55BB4E972B4F4ACF00836422 /* BugFixModal.swift */,
 			);
 			path = Modals;
 			sourceTree = "<group>";
@@ -311,7 +314,6 @@
 				en,
 				de,
 				hu,
-				Base,
 			);
 			mainGroup = 55E387B22B48CDF100147F6B;
 			productRefGroup = 55E387BC2B48CDF100147F6B /* Products */;
@@ -359,16 +361,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				551D61C82B4E4F150066F1F1 /* SettingsModalView.swift in Sources */,
 				551D61CA2B4E56670066F1F1 /* AppAppearanceManager.swift in Sources */,
 				551D61C12B4E2E250066F1F1 /* AppVersionManager.swift in Sources */,
+				55BB4E9A2B4F4E5600836422 /* AppInfoView.swift in Sources */,
 				551D61C62B4E4ED20066F1F1 /* NewCategoryModalView.swift in Sources */,
 				55E387C12B48CDF100147F6B /* ContentView.swift in Sources */,
+				55BB4E962B4EE46400836422 /* SettingsView.swift in Sources */,
 				55E387BF2B48CDF100147F6B /* QuantifyApp.swift in Sources */,
 				551D61CD2B4E59150066F1F1 /* ThemeChangeView.swift in Sources */,
 				551D61BE2B4E2C2A0066F1F1 /* UpdateModalView.swift in Sources */,
+				55BB4E982B4F4ACF00836422 /* BugFixModal.swift in Sources */,
 				551D61C32B4E3DD30066F1F1 /* CategoryView.swift in Sources */,
-				55BB4E932B4E67AD00836422 /* LanguageManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,7 +411,7 @@
 		551D61B02B4E27ED0066F1F1 /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				551D61B12B4E27ED0066F1F1 /* en */,
+				55BB4EA12B4F532D00836422 /* en */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -416,7 +419,7 @@
 		551D61B52B4E28340066F1F1 /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				551D61B62B4E28340066F1F1 /* de */,
+				55BB4EA22B4F532D00836422 /* de */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -557,7 +560,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 18;
 				DEVELOPMENT_ASSET_PATHS = "\"Quantify/Preview Content\"";
 				DEVELOPMENT_TEAM = JD2244SW57;
 				ENABLE_PREVIEWS = YES;
@@ -588,7 +591,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 18;
 				DEVELOPMENT_ASSET_PATHS = "\"Quantify/Preview Content\"";
 				DEVELOPMENT_TEAM = JD2244SW57;
 				ENABLE_PREVIEWS = YES;

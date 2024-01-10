@@ -41,7 +41,7 @@ struct UpdateModalView: View {
     
     @AppStorage("userTheme") private var userTheme: Theme = .systemDefault
     
-    @EnvironmentObject var languageManager: LanguageManager
+    @State private var showingBugFixes = false
     
     @Binding var isPresented: Bool
     
@@ -64,10 +64,38 @@ struct UpdateModalView: View {
                             text: NSLocalizedString("featureTwoTitle", comment: "Title of second feature"),
                             desc: NSLocalizedString("featureTwoDescription", comment: "Description of second feature")
                 )
-                FeatureView(icon: NSLocalizedString("featureThreeIcon", comment: "Icon of third feature"),
-                             text: NSLocalizedString("featureThreeTitle", comment: "Title of third feature"),
-                             desc: NSLocalizedString("featureThreeDescription", comment: "Description of third feature")
-                )
+
+                HStack(alignment: .top) { // Hier wird die Ausrichtung auf .top gesetzt
+                    Image(systemName: "bandage")
+                        .foregroundColor(.blue)
+                        .imageScale(.large)
+                        .font(.system(size: 30))
+                        .frame(width: 65, height: 75)
+                    
+                    VStack(alignment: .leading) { // Ausrichtung des VStacks auf .leading
+                        Text(NSLocalizedString("featureThreeTitle", comment: "Title for bugfixes"))
+                            .font(.headline)
+                        
+                        Text(NSLocalizedString("featureThreeDescriptionBefore", comment: "Description for bugfixes"))
+                            .font(.subheadline)
+                            .foregroundColor(.gray)
+                        Button(action: {
+                            showingBugFixes = true
+                        }) {
+                            Text(NSLocalizedString("featureThreeDescriptionLinkFirst", comment: "First part of link"))
+                                .font(.subheadline)
+                                .foregroundColor(.gray)
+                            Text(NSLocalizedString("featureThreeDescriptionLinkSecond", comment: "Button of Buglist"))
+                                .font(.subheadline)
+                                .underline()
+                                .foregroundColor(.blue)
+                                
+                        }
+                    }
+                    .padding(.leading, 5) // Etwas Abstand zwischen Icon und Text
+                    
+                    Spacer()
+                }
                 
                 Spacer()
                 
@@ -86,14 +114,13 @@ struct UpdateModalView: View {
             .padding()
         }
         .preferredColorScheme(userTheme.colorScheme)
-        .environment(\.locale, languageManager.locale)
+        .sheet(isPresented: $showingBugFixes) {
+            BugFixesModalView(isPresented: $showingBugFixes)
+        }
     }
 }
 
 
-struct UpdateModalView_Previews: PreviewProvider {
-    static var previews: some View {
-        UpdateModalView(isPresented: .constant(true))
-    }
+#Preview {
+    UpdateModalView(isPresented: .constant(true))
 }
-

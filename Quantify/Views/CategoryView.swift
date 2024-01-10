@@ -10,7 +10,6 @@ import SwiftUI
 
 struct CategoryView: View {
     @EnvironmentObject var dataManager: DataManager
-    @EnvironmentObject var languageManager: LanguageManager
     var category: Category
     
     var body: some View {
@@ -28,6 +27,5 @@ struct CategoryView: View {
                     dataManager.incrementCounter(category: category)
                 }
         }
-        .environment(\.locale, languageManager.locale)
     }
 }

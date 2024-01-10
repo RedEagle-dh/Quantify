@@ -34,17 +34,17 @@ struct ThemeChangeView: View {
                         }
                 }
             
-            Text("Choose a style")
+            Text(NSLocalizedString("themeSettingsTitle", comment: "Title for the theme settings"))
                 .font(.title2.bold())
                 .padding(.top, 25)
             
-            Text("Pop or subtle, Day or night.\nCustomize your interface.")
+            Text(NSLocalizedString("themeSettingsDescription", comment: "Subtitle for the theme settings"))
                 .multilineTextAlignment(.center)
             
             /// Custom Segmented Picker
             HStack(spacing: 0) {
                 ForEach(Theme.allCases, id: \.rawValue) { theme in
-                    Text(theme.rawValue)
+                    Text(theme.localizedString)
                         .padding(.vertical, 10)
                         .frame(width: 100)
                         .background {
@@ -82,6 +82,7 @@ struct ThemeChangeView: View {
         }
         
     }
+    
 }
 
 #Preview {
@@ -92,6 +93,17 @@ enum Theme: String, CaseIterable {
     case systemDefault = "Default"
     case light = "Light"
     case dark = "Dark"
+    
+    var localizedString: String {
+        switch self {
+        case .systemDefault:
+            return NSLocalizedString("themeSettingsDefault", comment: "Default Theme")
+        case .light:
+            return NSLocalizedString("themeSettingsLight", comment: "Light Theme")
+        case .dark:
+            return NSLocalizedString("themeSettingsDark", comment: "Dark Theme")
+        }
+    }
     
     func color (_ scheme: ColorScheme) -> Color {
         switch self {

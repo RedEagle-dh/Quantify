@@ -11,7 +11,6 @@ import SwiftUI
 
 struct ContentView: View {
     @EnvironmentObject var dataManager: DataManager
-    @EnvironmentObject var languageManager: LanguageManager
     
     @State private var showingModal = false
     
@@ -92,7 +91,6 @@ struct ContentView: View {
             }
         }
         .preferredColorScheme(userTheme.colorScheme)
-        .environment(\.locale, languageManager.locale)
         
     }
     
@@ -136,7 +134,6 @@ struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
             .environmentObject(DataManager())
-            .environmentObject(LanguageManager())
     }
 }
 

@@ -13,11 +13,13 @@
 "featureOneIcon" = "moon.stars";
 
 "featureTwoTitle" = "Sprachvielfalt";
-"featureTwoDescription" = "Du kannst dich nun zwischen Deutsch, Englisch und Ungarisch entscheiden.";
+"featureTwoDescription" = "Die App unterstützt nun Deutsch, Englisch und Ungarisch.";
 "featureTwoIcon" = "globe";
 
 "featureThreeTitle" = "Fehlerbehebung";
-"featureThreeDescription" = "Einige Fehler wurden behoben. Siehe hier für mehr.";
+"featureThreeDescriptionBefore" = "Einige Fehler wurden behoben.";
+"featureThreeDescriptionLinkFirst" = "Siehe";
+"featureThreeDescriptionLinkSecond" = "Fehlerliste";
 "featureThreeIcon" = "bandage";
 
 "updateModalButton" = "Fortfahren";
@@ -31,4 +33,21 @@
 "newCategoryInputName" = "Name";
 "newCategoryInputCounter" = "Anzahl";
 
+"settingsTitle" = "Einstellungen";
+"appearanceTitle" = "Erscheinungsbild";
+"changeThemeButton" = "Ändern";
 
+"themeSettingsTitle" = "Ändere das Erscheinungsbild";
+"themeSettingsDescription" = "Knallig oder dezent, Tag oder Nacht.\nPasse die App an.";
+"themeSettingsDefault" = "System";
+"themeSettingsLight" = "Hell";
+"themeSettingsDark" = "Dunkel";
+
+"appInfoButton" = "Info";
+"generalSectionTitle" = "Allgemein";
+
+"appInfoTitle" = "App-Informationen";
+"appVersion" = "App-Version";
+"appBuildVersion" = "Build-Version";
+"releaseDateString" = "Veröffentlichungsdatum";
+"releaseDate" = "11. Januar 2024";

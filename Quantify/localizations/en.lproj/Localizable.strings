@@ -13,11 +13,13 @@
 "featureOneIcon" = "moon.stars";
 
 "featureTwoTitle" = "Multi Language";
-"featureTwoDescription" = "You can select between English, German and Hungarian. More coming soon.";
+"featureTwoDescription" = "The app now supports English, German and Hungarian. More coming soon.";
 "featureTwoIcon" = "globe";
 
-"featureThreeTitle" = "Bug fixes";
-"featureThreeDescription" = "Some bugs were fixed. Click here to see more.";
+"featureThreeTitle" = "Bugfixes";
+"featureThreeDescriptionBefore" = "Some bugs were fixed.";
+"featureThreeDescriptionLinkFirst" = "See";
+"featureThreeDescriptionLinkSecond" = "Buglist";
 "featureThreeIcon" = "bandage";
 
 "updateModalButton" = "Continue";
@@ -30,3 +32,22 @@
 "newCategorySave" = "Save";
 "newCategoryInputName" = "Name";
 "newCategoryInputCounter" = "Count";
+
+"settingsTitle" = "Settings";
+"appearanceTitle" = "Appearance";
+"changeThemeButton" = "Change theme";
+
+"themeSettingsTitle" = "Choose a style";
+"themeSettingsDescription" = "Pop or subtle, Day or night.\nCustomize your app.";
+"themeSettingsDefault" = "System";
+"themeSettingsLight" = "Light";
+"themeSettingsDark" = "Dark";
+
+"appInfoButton" = "About";
+"generalSectionTitle" = "General";
+
+"appInfoTitle" = "App Information";
+"appVersion" = "Version Number";
+"appBuildVersion" = "Build Number";
+"releaseDate" = "Release Date";
+"releaseDate" = "11. January 2024";

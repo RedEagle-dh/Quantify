@@ -13,11 +13,13 @@
 "featureOneIcon" = "moon.stars";
 
 "featureTwoTitle" = "Új nyelvek";
-"featureTwoDescription" = "Most már választhatsz magyar, német és angol közzül.";
+"featureTwoDescription" = "Az alkalmazás mostantól támogatja az angol, német és magyar nyelvet.";
 "featureTwoIcon" = "globe";
 
 "featureThreeTitle" = "Hibaelhárítás";
-"featureThreeDescription" = "A hibákat kijavítottuk. További részletekért lásd itt.";
+"featureThreeDescriptionBefore" = "A hibákat kijavítottuk. ";
+"featureThreeDescriptionLinkFirst" = "Lásd";
+"featureThreeDescriptionLinkSecond" = "Hibák";
 "featureThreeIcon" = "bandage";
 
 "updateModalButton" = "Folytatás";
@@ -30,3 +32,22 @@
 "newCategorySave" = "Mentés";
 "newCategoryInputName" = "Név";
 "newCategoryInputCounter" = "Mennyiség";
+
+"settingsTitle" = "Beállitások";
+"appearanceTitle" = "Megjelenés";
+"changeThemeButton" = "Témaváltás";
+
+"themeSettingsTitle" = "Válassz egy stílust";
+"themeSettingsDescription" = "Pop or subtle, Day or night.\nCustomize your interface.";
+"themeSettingsDefault" = "Sysztém";
+"themeSettingsLight" = "Világos";
+"themeSettingsDark" = "Sötét";
+
+"appInfoButton" = "Infó";
+"generalSectionTitle" = "Általános";
+
+"appInfoTitle" = "Informácio";
+"appVersion" = "App-verzió";
+"appBuildVersion" = "Build-szám";
+"releaseDateString" = "Megjelenési dátum";
+"releaseDate" = "11. Január 2024";
