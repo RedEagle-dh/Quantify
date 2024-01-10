@@ -1,0 +1,32 @@
+/* 
+  Localizable.strings
+  Quantify
+
+  Created by David Hermann on 10.01.24.
+  
+*/
+
+"updateModalTitle" = "Üdvözöljük újra!";
+
+"featureOneTitle" = "Világos vs. sötét";
+"featureOneDescription" = "Most már válthatsz a világos és a sötét üzemmód között.";
+"featureOneIcon" = "moon.stars";
+
+"featureTwoTitle" = "Új nyelvek";
+"featureTwoDescription" = "Most már választhatsz magyar, német és angol közzül.";
+"featureTwoIcon" = "globe";
+
+"featureThreeTitle" = "Hibaelhárítás";
+"featureThreeDescription" = "A hibákat kijavítottuk. További részletekért lásd itt.";
+"featureThreeIcon" = "bandage";
+
+"updateModalButton" = "Folytatás";
+
+"mainTitle" = "Kategóriák";
+"noCategoriesFound" = "Nincs még kategória";
+
+"newCategoryTitle" = "Új kategória";
+"newCategoryCancel" = "Mégsem";
+"newCategorySave" = "Mentés";
+"newCategoryInputName" = "Név";
+"newCategoryInputCounter" = "Mennyiség";

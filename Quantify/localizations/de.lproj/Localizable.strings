@@ -1,0 +1,34 @@
+/* 
+  Localizable.strings
+  Quantify
+
+  Created by David Hermann on 10.01.24.
+  
+*/
+
+"updateModalTitle" = "Willkommen zurück!";
+
+"featureOneTitle" = "Hell vs. Dunkel";
+"featureOneDescription" = "Du kannst nun zwischen dem Hellen und dem Dunklen Modus umschalten.";
+"featureOneIcon" = "moon.stars";
+
+"featureTwoTitle" = "Sprachvielfalt";
+"featureTwoDescription" = "Du kannst dich nun zwischen Deutsch, Englisch und Ungarisch entscheiden.";
+"featureTwoIcon" = "globe";
+
+"featureThreeTitle" = "Fehlerbehebung";
+"featureThreeDescription" = "Einige Fehler wurden behoben. Siehe hier für mehr.";
+"featureThreeIcon" = "bandage";
+
+"updateModalButton" = "Fortfahren";
+
+"mainTitle" = "Kategorien";
+"noCategoriesFound" = "Keine Kategorien vorhanden";
+
+"newCategoryTitle" = "Neue Kategorie";
+"newCategoryCancel" = "Abbrechen";
+"newCategorySave" = "Speichern";
+"newCategoryInputName" = "Name";
+"newCategoryInputCounter" = "Anzahl";
+
+

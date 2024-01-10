@@ -1,0 +1,32 @@
+/*
+  Localizable.strings
+  Quantify
+
+  Created by David Hermann on 10.01.24.
+  
+*/
+
+"updateModalTitle" = "Welcome back!";
+
+"featureOneTitle" = "Light vs. Dark";
+"featureOneDescription" = "You can now switch between the light and the dark mode.";
+"featureOneIcon" = "moon.stars";
+
+"featureTwoTitle" = "Multi Language";
+"featureTwoDescription" = "You can select between English, German and Hungarian. More coming soon.";
+"featureTwoIcon" = "globe";
+
+"featureThreeTitle" = "Bug fixes";
+"featureThreeDescription" = "Some bugs were fixed. Click here to see more.";
+"featureThreeIcon" = "bandage";
+
+"updateModalButton" = "Continue";
+
+"mainTitle" = "Categories";
+"noCategoriesFound" = "No categories found";
+
+"newCategoryTitle" = "New Category";
+"newCategoryCancel" = "Cancel";
+"newCategorySave" = "Save";
+"newCategoryInputName" = "Name";
+"newCategoryInputCounter" = "Count";

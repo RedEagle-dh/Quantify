@@ -165,7 +165,7 @@ struct IntroModalView: View {
         NavigationView {
             VStack(alignment: .leading, spacing: 20) {
                 
-                Text("Welcome to Counting!")
+                Text(NSLocalizedString("welcomeKey", comment: "Welcome message"))
                     .font(.largeTitle)
                     .fontWeight(.bold)
                     .multilineTextAlignment(.center)
