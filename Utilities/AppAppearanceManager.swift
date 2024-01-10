@@ -6,3 +6,8 @@
 //
 
 import Foundation
+
+
+func fetchDarkMode() -> Bool {
+    return UserDefaults.standard.bool(forKey: "DARKMODE_KEY")
+}

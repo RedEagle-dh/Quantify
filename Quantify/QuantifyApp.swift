@@ -8,7 +8,7 @@
 import SwiftUI
 
 class DataManager: ObservableObject {
-    @Published var kategorien: [Kategorie] = []
+    @Published var categories: [Category] = []
     
     init() {
         loadFromUserDefaults()
@@ -17,7 +17,7 @@ class DataManager: ObservableObject {
     func saveToUserDefaults() {
         
         let encoder = JSONEncoder()
-        if let encoded = try? encoder.encode(kategorien) {
+        if let encoded = try? encoder.encode(categories) {
             let jsonString = String(data: encoded, encoding: .utf8)
             
             UserDefaults.standard.set(jsonString, forKey: "KATEGORIEN_KEY")
@@ -29,36 +29,37 @@ class DataManager: ObservableObject {
         if let jsonString = UserDefaults.standard.string(forKey: "KATEGORIEN_KEY"),
            let jsonData = jsonString.data(using: .utf8) {
             let decoder = JSONDecoder()
-            if let decodedKategorien = try? decoder.decode([Kategorie].self, from: jsonData) {
-                kategorien = decodedKategorien
+            if let decodedKategorien = try? decoder.decode([Category].self, from: jsonData) {
+                categories = decodedKategorien
             }
         }
     }
     
-    func incrementCounter(for index: Int) {
-        print("Increment")
-        if kategorien.indices.contains(index) {
-            kategorien[index].counter += 1
+    func incrementCounter(category: Category) {
+        if let index = categories.firstIndex(where: { $0.id == category.id }) {
+            categories[index].counter += 1
         }
     }
-    
-    func decrementCounter(for index: Int) {
-        print("Decrement")
-        if kategorien.indices.contains(index), kategorien[index].counter > 0 {
-            kategorien[index].counter -= 1
+
+    func decrementCounter(category: Category) {
+        if let index = categories.firstIndex(where: { $0.id == category.id }), categories[index].counter > 0 {
+            categories[index].counter -= 1
         }
     }
+
 }
 
 @main
 struct CountingApp: App {
     @StateObject var dataManager = DataManager()
+    @StateObject var languageManager = LanguageManager()
     @Environment(\.scenePhase) var scenePhase
     
     var body: some Scene {
         WindowGroup {
             ContentView()
                 .environmentObject(dataManager)
+                .environmentObject(languageManager)
                 .onChange(of: scenePhase) { oldPhase, newPhase in
                     switch newPhase {
                     case .active:

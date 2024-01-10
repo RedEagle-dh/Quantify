@@ -38,6 +38,11 @@ struct FeatureView: View {
 
 
 struct UpdateModalView: View {
+    
+    @AppStorage("userTheme") private var userTheme: Theme = .systemDefault
+    
+    @EnvironmentObject var languageManager: LanguageManager
+    
     @Binding var isPresented: Bool
     
     var body: some View {
@@ -80,6 +85,8 @@ struct UpdateModalView: View {
             }
             .padding()
         }
+        .preferredColorScheme(userTheme.colorScheme)
+        .environment(\.locale, languageManager.locale)
     }
 }
 

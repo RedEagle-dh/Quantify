@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		551D61B22B4E27ED0066F1F1 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 551D61B02B4E27ED0066F1F1 /* Localizable.strings */; };
+		551D61B72B4E28340066F1F1 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 551D61B52B4E28340066F1F1 /* Localizable.strings */; };
+		551D61BA2B4E28450066F1F1 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 551D61B82B4E28450066F1F1 /* Localizable.strings */; };
+		551D61BE2B4E2C2A0066F1F1 /* UpdateModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551D61BD2B4E2C2A0066F1F1 /* UpdateModalView.swift */; };
+		551D61C12B4E2E250066F1F1 /* AppVersionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551D61C02B4E2E250066F1F1 /* AppVersionManager.swift */; };
+		551D61C32B4E3DD30066F1F1 /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551D61C22B4E3DD30066F1F1 /* CategoryView.swift */; };
+		551D61C62B4E4ED20066F1F1 /* NewCategoryModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551D61C52B4E4ED20066F1F1 /* NewCategoryModalView.swift */; };
+		551D61C82B4E4F150066F1F1 /* SettingsModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551D61C72B4E4F150066F1F1 /* SettingsModalView.swift */; };
+		551D61CA2B4E56670066F1F1 /* AppAppearanceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551D61C92B4E56670066F1F1 /* AppAppearanceManager.swift */; };
+		551D61CD2B4E59150066F1F1 /* ThemeChangeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551D61CC2B4E59150066F1F1 /* ThemeChangeView.swift */; };
+		55BB4E932B4E67AD00836422 /* LanguageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BB4E922B4E67AD00836422 /* LanguageManager.swift */; };
 		55E387BF2B48CDF100147F6B /* QuantifyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E387BE2B48CDF100147F6B /* QuantifyApp.swift */; };
 		55E387C12B48CDF100147F6B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E387C02B48CDF100147F6B /* ContentView.swift */; };
 		55E387C32B48CDF200147F6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55E387C22B48CDF200147F6B /* Assets.xcassets */; };
@@ -34,6 +45,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		551D61B12B4E27ED0066F1F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Localizable.strings; sourceTree = "<group>"; };
+		551D61B62B4E28340066F1F1 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = Localizable.strings; sourceTree = "<group>"; };
+		551D61B92B4E28450066F1F1 /* hu */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hu; path = Localizable.strings; sourceTree = "<group>"; };
+		551D61BD2B4E2C2A0066F1F1 /* UpdateModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateModalView.swift; sourceTree = "<group>"; };
+		551D61C02B4E2E250066F1F1 /* AppVersionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppVersionManager.swift; sourceTree = "<group>"; };
+		551D61C22B4E3DD30066F1F1 /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
+		551D61C52B4E4ED20066F1F1 /* NewCategoryModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCategoryModalView.swift; sourceTree = "<group>"; };
+		551D61C72B4E4F150066F1F1 /* SettingsModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsModalView.swift; sourceTree = "<group>"; };
+		551D61C92B4E56670066F1F1 /* AppAppearanceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAppearanceManager.swift; sourceTree = "<group>"; };
+		551D61CC2B4E59150066F1F1 /* ThemeChangeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeChangeView.swift; sourceTree = "<group>"; };
+		55BB4E922B4E67AD00836422 /* LanguageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageManager.swift; sourceTree = "<group>"; };
 		55E387BB2B48CDF100147F6B /* Quantify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quantify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55E387BE2B48CDF100147F6B /* QuantifyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuantifyApp.swift; sourceTree = "<group>"; };
 		55E387C02B48CDF100147F6B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -71,9 +93,83 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		551D61AE2B4E27A20066F1F1 /* localizations */ = {
+			isa = PBXGroup;
+			children = (
+				551D61B42B4E280E0066F1F1 /* hu.lproj */,
+				551D61B32B4E27FD0066F1F1 /* de.lproj */,
+				551D61AF2B4E27B80066F1F1 /* en.lproj */,
+			);
+			path = localizations;
+			sourceTree = "<group>";
+		};
+		551D61AF2B4E27B80066F1F1 /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				551D61B02B4E27ED0066F1F1 /* Localizable.strings */,
+			);
+			path = en.lproj;
+			sourceTree = "<group>";
+		};
+		551D61B32B4E27FD0066F1F1 /* de.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				551D61B52B4E28340066F1F1 /* Localizable.strings */,
+			);
+			path = de.lproj;
+			sourceTree = "<group>";
+		};
+		551D61B42B4E280E0066F1F1 /* hu.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				551D61B82B4E28450066F1F1 /* Localizable.strings */,
+			);
+			path = hu.lproj;
+			sourceTree = "<group>";
+		};
+		551D61BC2B4E2C1C0066F1F1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				551D61CB2B4E59070066F1F1 /* Helpers */,
+				551D61C42B4E4EC30066F1F1 /* Modals */,
+				55E387C02B48CDF100147F6B /* ContentView.swift */,
+				551D61C22B4E3DD30066F1F1 /* CategoryView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		551D61BF2B4E2E110066F1F1 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				551D61C02B4E2E250066F1F1 /* AppVersionManager.swift */,
+				551D61C92B4E56670066F1F1 /* AppAppearanceManager.swift */,
+				55BB4E922B4E67AD00836422 /* LanguageManager.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		551D61C42B4E4EC30066F1F1 /* Modals */ = {
+			isa = PBXGroup;
+			children = (
+				551D61BD2B4E2C2A0066F1F1 /* UpdateModalView.swift */,
+				551D61C52B4E4ED20066F1F1 /* NewCategoryModalView.swift */,
+				551D61C72B4E4F150066F1F1 /* SettingsModalView.swift */,
+			);
+			path = Modals;
+			sourceTree = "<group>";
+		};
+		551D61CB2B4E59070066F1F1 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				551D61CC2B4E59150066F1F1 /* ThemeChangeView.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		55E387B22B48CDF100147F6B = {
 			isa = PBXGroup;
 			children = (
+				551D61BF2B4E2E110066F1F1 /* Utilities */,
 				55E387BD2B48CDF100147F6B /* Quantify */,
 				55E387CE2B48CDF200147F6B /* QuantifyTests */,
 				55E387D82B48CDF200147F6B /* QuantifyUITests */,
@@ -94,8 +190,9 @@
 		55E387BD2B48CDF100147F6B /* Quantify */ = {
 			isa = PBXGroup;
 			children = (
+				551D61AE2B4E27A20066F1F1 /* localizations */,
+				551D61BC2B4E2C1C0066F1F1 /* Views */,
 				55E387BE2B48CDF100147F6B /* QuantifyApp.swift */,
-				55E387C02B48CDF100147F6B /* ContentView.swift */,
 				55E387C22B48CDF200147F6B /* Assets.xcassets */,
 				55E387C42B48CDF200147F6B /* Preview Content */,
 			);
@@ -212,6 +309,8 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				de,
+				hu,
 				Base,
 			);
 			mainGroup = 55E387B22B48CDF100147F6B;
@@ -231,7 +330,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				551D61BA2B4E28450066F1F1 /* Localizable.strings in Resources */,
 				55E387C62B48CDF200147F6B /* Preview Assets.xcassets in Resources */,
+				551D61B72B4E28340066F1F1 /* Localizable.strings in Resources */,
+				551D61B22B4E27ED0066F1F1 /* Localizable.strings in Resources */,
 				55E387C32B48CDF200147F6B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,8 +359,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				551D61C82B4E4F150066F1F1 /* SettingsModalView.swift in Sources */,
+				551D61CA2B4E56670066F1F1 /* AppAppearanceManager.swift in Sources */,
+				551D61C12B4E2E250066F1F1 /* AppVersionManager.swift in Sources */,
+				551D61C62B4E4ED20066F1F1 /* NewCategoryModalView.swift in Sources */,
 				55E387C12B48CDF100147F6B /* ContentView.swift in Sources */,
 				55E387BF2B48CDF100147F6B /* QuantifyApp.swift in Sources */,
+				551D61CD2B4E59150066F1F1 /* ThemeChangeView.swift in Sources */,
+				551D61BE2B4E2C2A0066F1F1 /* UpdateModalView.swift in Sources */,
+				551D61C32B4E3DD30066F1F1 /* CategoryView.swift in Sources */,
+				55BB4E932B4E67AD00836422 /* LanguageManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +403,33 @@
 			targetProxy = 55E387D62B48CDF200147F6B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		551D61B02B4E27ED0066F1F1 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				551D61B12B4E27ED0066F1F1 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		551D61B52B4E28340066F1F1 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				551D61B62B4E28340066F1F1 /* de */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		551D61B82B4E28450066F1F1 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				551D61B92B4E28450066F1F1 /* hu */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		55E387DD2B48CDF200147F6B /* Debug */ = {
@@ -425,6 +562,8 @@
 				DEVELOPMENT_TEAM = JD2244SW57;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Quantify - Count everything!";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -434,7 +573,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.redeagle.Quantify;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -454,6 +593,8 @@
 				DEVELOPMENT_TEAM = JD2244SW57;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Quantify - Count everything!";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -463,7 +604,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.redeagle.Quantify;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
