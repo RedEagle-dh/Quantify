@@ -14,17 +14,13 @@ struct ContentView: View {
     
     @State private var showingModal = false
     
-    @State private var showUpdateModal: Bool
+    @State private var showUpdateModal = false
     
     @State private var showingSettings = false
     
     @Environment(\.colorScheme) private var scheme
     
     @AppStorage("userTheme") private var userTheme: Theme = .systemDefault
-    
-    init() {
-        _showUpdateModal = State(initialValue: isFirstLaunchAfterUpdate())
-    }
     
     var body: some View {
         NavigationStack {
@@ -51,6 +47,8 @@ struct ContentView: View {
                         }
                         .onDelete(perform: delete)
                     }
+                }.onAppear {
+                    showUpdateModal = AppUpdateManager.shared.isFirstLaunchAfterUpdate()
                 }
                 VStack {
                     Spacer()

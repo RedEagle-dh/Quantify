@@ -14,30 +14,54 @@ struct BugFixesModalView: View {
         NavigationView {
             ScrollView {
                 VStack(alignment: .leading, spacing: 12) {
-                    Text("Update-Details")
+                    Text("Patch Notes")
                         .font(.title)
                         .fontWeight(.bold)
-
-                    Text("Version 1.1.0 (10. January 2024)")
-                        .font(.headline)
-                        .padding(.top)
-
                     Group {
-                        Text("App interface:")
-                            .fontWeight(.semibold)
+                        Text("Version 1.0 (2024.0111.1)")
+                            .font(.headline)
                             .padding(.top)
-                        Text("• Dark and lightmode are available now.")
-                        Text("• Created this screen for update information.")
-                        Text("• Created settings page with app information and appearance changes.")
-                        Text("• We now support German, English and Hungarian.")
+                            .underline()
+                        Group {
+                            Text("App interface:")
+                                .fontWeight(.semibold)
+                                .padding(.top)
+                            Text("• The patch notes are now available in the settings.")
+                        }
+
+                        Group {
+                            Text("Bugfixes:")
+                                .fontWeight(.semibold)
+                                .padding(.top)
+                            Text("• Fixed: Problem showing patch notes on first start after update.")
+                            Text("• Fixed: Language typo in english at release date.")
+                        }
                     }
-
+                    
+                    Spacer()
+                    
                     Group {
-                        Text("Bugfixes:")
-                            .fontWeight(.semibold)
+                        Text("Version 1.0 (2024.0111.0)")
+                            .font(.headline)
                             .padding(.top)
-                        Text("• Fixed: Problem with creating a category without a given counter.")
-                        Text("• Fixed: App crashes when category gets deleted.")
+                            .underline()
+                        Group {
+                            Text("App interface:")
+                                .fontWeight(.semibold)
+                                .padding(.top)
+                            Text("• Dark and lightmode are available now.")
+                            Text("• Created this screen for update information.")
+                            Text("• Created settings page with app information and appearance changes.")
+                            Text("• We now support German, English and Hungarian.")
+                        }
+
+                        Group {
+                            Text("Bugfixes:")
+                                .fontWeight(.semibold)
+                                .padding(.top)
+                            Text("• Fixed: Problem with creating a category without a given counter.")
+                            Text("• Fixed: App crashes when category gets deleted.")
+                        }
                     }
 
                     Spacer()
@@ -54,4 +78,8 @@ struct BugFixesModalView: View {
             }
         }
     }
+}
+
+#Preview {
+    BugFixesModalView(isPresented: .constant(true))
 }

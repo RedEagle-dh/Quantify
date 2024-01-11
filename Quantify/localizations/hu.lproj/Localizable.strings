@@ -51,3 +51,6 @@
 "appBuildVersion" = "Build-szám";
 "releaseDateString" = "Megjelenési dátum";
 "releaseDate" = "11. Január 2024";
+
+"patchNotesString" = "Hiba kijavitások";
+"patchNotesButton" = "Lásd itt";

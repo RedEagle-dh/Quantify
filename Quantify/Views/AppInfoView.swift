@@ -10,6 +10,8 @@ import SwiftUI
 
 struct AppInfoView: View {
     
+    @State var showingBugFixes = false;
+    
     var appVersion: String {
         Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as? String ?? "Unknown"
     }
@@ -20,6 +22,8 @@ struct AppInfoView: View {
     
     var body: some View {
         List {
+            Section(NSLocalizedString("appInfoTitle", comment: "Title of info page")) {
+                
                 HStack {
                     Text(NSLocalizedString("appVersion", comment: "Title of app version"))
                     Spacer()
@@ -37,7 +41,27 @@ struct AppInfoView: View {
                     Spacer()
                     Text(NSLocalizedString("releaseDate", comment: "Date of release"))
                 }
-        }.padding(.top, 10)
-            .navigationTitle(NSLocalizedString("appInfoTitle", comment: "Title of info page"))
+                
+                HStack {
+                    Text(NSLocalizedString("patchNotesString", comment: "Title of patch notes"))
+                    Spacer()
+                    Button(action: {
+                        showingBugFixes = true
+                    }) {
+                        Text(NSLocalizedString("patchNotesButton", comment: "Button of patch notes"))
+                    }
+                    
+                }
+            }
+        }
+        .sheet(isPresented: $showingBugFixes) {
+            BugFixesModalView(isPresented: $showingBugFixes)
+        }
+        .navigationTitle(NSLocalizedString("appInfoTitle", comment: "Title of info page"))
     }
+}
+
+
+#Preview {
+    AppInfoView()
 }

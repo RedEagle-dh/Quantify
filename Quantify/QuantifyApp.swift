@@ -49,6 +49,15 @@ class DataManager: ObservableObject {
 
 }
 
+class AppUpdateStatus: ObservableObject {
+    @Published var isFirstLaunchAfterUpdate: Bool
+
+    init() {
+        isFirstLaunchAfterUpdate = AppUpdateManager.shared.isFirstLaunchAfterUpdate()
+    }
+}
+
+
 @main
 struct CountingApp: App {
     @StateObject var dataManager = DataManager()
@@ -71,6 +80,3 @@ struct CountingApp: App {
         }
     }
 }
-
-
-

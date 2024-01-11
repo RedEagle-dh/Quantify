@@ -51,3 +51,6 @@
 "appBuildVersion" = "Build-Version";
 "releaseDateString" = "Veröffentlichungsdatum";
 "releaseDate" = "11. Januar 2024";
+
+"patchNotesString" = "Fehlerbehebungen";
+"patchNotesButton" = "Mehr";

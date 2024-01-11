@@ -49,5 +49,8 @@
 "appInfoTitle" = "App Information";
 "appVersion" = "Version Number";
 "appBuildVersion" = "Build Number";
-"releaseDate" = "Release Date";
+"releaseDateString" = "Release Date";
 "releaseDate" = "11. January 2024";
+
+"patchNotesString" = "Patch Notes";
+"patchNotesButton" = "See more";

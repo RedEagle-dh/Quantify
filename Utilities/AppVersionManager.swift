@@ -16,20 +16,31 @@ func getCurrentBuildNumber() -> String {
     return Bundle.main.infoDictionary?["CFBundleVersion"] as? String ?? "1"
 }
 
-func isFirstLaunchAfterUpdate() -> Bool {
-    let currentVersion = getCurrentAppVersion()
-    let currentBuild = getCurrentBuildNumber()
-    
-    let previousVersion = UserDefaults.standard.string(forKey: "lastVersion")
-    let previousBuild = UserDefaults.standard.string(forKey: "lastBuild")
+class AppUpdateManager {
+    static let shared = AppUpdateManager()
+    private var hasCheckedFirstLaunch: Bool = false
 
-    if previousVersion != currentVersion || previousBuild != currentBuild {
-        UserDefaults.standard.set(currentVersion, forKey: "lastVersion")
-        UserDefaults.standard.set(currentBuild, forKey: "lastBuild")
-        return true
+    func isFirstLaunchAfterUpdate() -> Bool {
+        if hasCheckedFirstLaunch {
+            return false
+        }
+
+        let currentVersion = getCurrentAppVersion()
+        let currentBuild = getCurrentBuildNumber()
+
+        let previousVersion = UserDefaults.standard.string(forKey: "lastVersion")
+        let previousBuild = UserDefaults.standard.string(forKey: "lastBuild")
+
+        if previousVersion != currentVersion || previousBuild != currentBuild {
+            UserDefaults.standard.set(currentVersion, forKey: "lastVersion")
+            UserDefaults.standard.set(currentBuild, forKey: "lastBuild")
+            hasCheckedFirstLaunch = true
+            return true
+        }
+
+        hasCheckedFirstLaunch = true
+        return false
     }
-    return false
 }
-
 
 
