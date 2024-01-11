@@ -54,3 +54,11 @@
 
 "patchNotesString" = "Hiba kijavitások";
 "patchNotesButton" = "Lásd itt";
+
+"generalSectionTitle" = "Általános";
+"nameLabel" = "Név";
+"currentCounterLabel" = "Jelenlegi Számláló";
+"creationDateLabel" = "Létrehozva";
+"lastModifiedDateLabel" = "Utoljára Módosítva";
+"categoryInfoTitle" = "Kategória Információ";
+"doneButton" = "Kész";

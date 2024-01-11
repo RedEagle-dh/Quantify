@@ -17,6 +17,29 @@ struct BugFixesModalView: View {
                     Text("Patch Notes")
                         .font(.title)
                         .fontWeight(.bold)
+                    
+                    Group {
+                        Text("Version 1.0 (2024.0111.2)")
+                            .font(.headline)
+                            .padding(.top)
+                            .underline()
+                        Group {
+                            Text("App interface:")
+                                .fontWeight(.semibold)
+                                .padding(.top)
+                            Text("• Information about the category are available now if you swipe the category to the right.")
+                        }
+
+                        Group {
+                            Text("Bugfixes:")
+                                .fontWeight(.semibold)
+                                .padding(.top)
+                            Text("• Fixed: Problem with update view where the title isn't displayed correctly.")
+                        }
+                    }
+                    
+                    Spacer()
+                    
                     Group {
                         Text("Version 1.0 (2024.0111.1)")
                             .font(.headline)

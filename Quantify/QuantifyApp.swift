@@ -38,12 +38,14 @@ class DataManager: ObservableObject {
     func incrementCounter(category: Category) {
         if let index = categories.firstIndex(where: { $0.id == category.id }) {
             categories[index].counter += 1
+            categories[index].lastModifiedDate = Date()
         }
     }
 
     func decrementCounter(category: Category) {
         if let index = categories.firstIndex(where: { $0.id == category.id }), categories[index].counter > 0 {
             categories[index].counter -= 1
+            categories[index].lastModifiedDate = Date()
         }
     }
 

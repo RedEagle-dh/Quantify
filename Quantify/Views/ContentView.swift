@@ -103,31 +103,6 @@ struct ContentView: View {
     }
 }
 
-struct Category: Identifiable, Codable {
-    var id = UUID()
-    var name: String
-    var anlegeDatum: Date = Date()
-    var counter: Int = 0
-    
-    enum CodingKeys: CodingKey {
-        case id, name, anlegeDatum, counter
-    }
-    
-    func encode(to encoder: Encoder) throws {
-        var container = encoder.container(keyedBy: CodingKeys.self)
-        try container.encode(id, forKey: .id)
-        try container.encode(name, forKey: .name)
-        try container.encode(anlegeDatum, forKey: .anlegeDatum)
-        try container.encode(counter, forKey: .counter)
-    }
-    
-    init(name: String, counter: Int = 0) {
-        self.name = name
-        self.counter = counter
-    }
-}
-
-
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()

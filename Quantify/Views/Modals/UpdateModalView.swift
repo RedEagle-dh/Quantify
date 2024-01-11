@@ -48,14 +48,18 @@ struct UpdateModalView: View {
     var body: some View {
         NavigationView {
             VStack(alignment: .leading, spacing: 20) {
+                HStack {
+                    Spacer()
+                    Text(NSLocalizedString("updateModalTitle", comment: "Welcome message"))
+                        .font(.largeTitle)
+                        .fontWeight(.bold)
+                        .padding(.top, 40)
+                        .padding(.bottom, 40)
+                        .padding(.horizontal)
+                        .multilineTextAlignment(.center)
+                    Spacer()
+                }
                 
-                Text(NSLocalizedString("updateModalTitle", comment: "Welcome message"))
-                    .font(.largeTitle)
-                    .fontWeight(.bold)
-                    .multilineTextAlignment(.center)
-                    .padding(.top, 40)
-                    .padding(.horizontal, 80)
-                    .padding(.bottom, 40)
                 FeatureView(icon: NSLocalizedString("featureOneIcon", comment: "Icon of first feature"),
                             text: NSLocalizedString("featureOneTitle", comment: "Title of first feature"),
                             desc: NSLocalizedString("featureOneDescription", comment: "Description of first feature")

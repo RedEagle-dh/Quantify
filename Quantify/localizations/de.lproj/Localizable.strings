@@ -54,3 +54,11 @@
 
 "patchNotesString" = "Fehlerbehebungen";
 "patchNotesButton" = "Mehr";
+
+"generalSectionTitle" = "Allgemeines";
+"nameLabel" = "Name";
+"currentCounterLabel" = "Aktueller Zählerstand";
+"creationDateLabel" = "Erstellt am";
+"lastModifiedDateLabel" = "Zuletzt geändert am";
+"categoryInfoTitle" = "Kategorie Info";
+"doneButton" = "Fertig";

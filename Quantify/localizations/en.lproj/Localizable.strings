@@ -54,3 +54,11 @@
 
 "patchNotesString" = "Patch Notes";
 "patchNotesButton" = "See more";
+
+"generalSectionTitle" = "General";
+"nameLabel" = "Name";
+"currentCounterLabel" = "Current Count";
+"creationDateLabel" = "Created On";
+"lastModifiedDateLabel" = "Last Modified On";
+"categoryInfoTitle" = "Category Info";
+"doneButton" = "Done";
