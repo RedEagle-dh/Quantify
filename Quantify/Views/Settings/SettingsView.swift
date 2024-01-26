@@ -26,7 +26,7 @@ struct SettingsView: View {
             }
             
             Section(header: Text(NSLocalizedString("generalSectionTitle", comment: "General settings section title"))) {
-                NavigationLink(destination: AppInfoView()) {
+                NavigationLink(destination: AboutView()) {
                     Text(NSLocalizedString("appInfoButton", comment: "Button to show app info"))
                 }
             }
@@ -37,7 +37,7 @@ struct SettingsView: View {
         .navigationTitle(NSLocalizedString("settingsTitle", comment: "Title for the settings page"))
         .preferredColorScheme(userTheme.colorScheme)
         .sheet(isPresented: $changeTheme, content: {
-            ThemeChangeView(scheme: scheme)
+            ChangeThemeView(scheme: scheme)
                 .presentationDetents([.height(410)])
                 .presentationBackground(.clear)
         })

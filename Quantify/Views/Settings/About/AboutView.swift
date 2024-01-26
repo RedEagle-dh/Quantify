@@ -8,7 +8,7 @@
 import Foundation
 import SwiftUI
 
-struct AppInfoView: View {
+struct AboutView: View {
     
     @State var showingBugFixes = false;
     
@@ -55,7 +55,7 @@ struct AppInfoView: View {
             }
         }
         .sheet(isPresented: $showingBugFixes) {
-            BugFixesModalView(isPresented: $showingBugFixes)
+            PatchNotesView(isPresented: $showingBugFixes)
         }
         .navigationTitle(NSLocalizedString("appInfoTitle", comment: "Title of info page"))
     }
@@ -63,5 +63,5 @@ struct AppInfoView: View {
 
 
 #Preview {
-    AppInfoView()
+    AboutView()
 }

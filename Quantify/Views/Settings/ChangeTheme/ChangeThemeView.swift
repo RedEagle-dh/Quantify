@@ -8,7 +8,7 @@
 import Foundation
 import SwiftUI
 
-struct ThemeChangeView: View {
+struct ChangeThemeView: View {
     var scheme: ColorScheme
     @AppStorage("userTheme") private var userTheme: Theme = .systemDefault
     @Namespace private var animation
@@ -86,7 +86,7 @@ struct ThemeChangeView: View {
 }
 
 #Preview {
-    ThemeChangeView(scheme: .light)
+    ChangeThemeView(scheme: .light)
 }
 
 enum Theme: String, CaseIterable {

@@ -14,7 +14,7 @@ struct ContentView: View {
     
     @State private var showingModal = false
     
-    @State private var showUpdateModal = false
+    @State private var showOnboardingView = false
     
     @State private var showingSettings = false
     
@@ -48,7 +48,7 @@ struct ContentView: View {
                         .onDelete(perform: delete)
                     }
                 }.onAppear {
-                    showUpdateModal = AppUpdateManager.shared.isFirstLaunchAfterUpdate()
+                    showOnboardingView = AppUpdateManager.shared.isFirstLaunchAfterUpdate()
                 }
                 VStack {
                     Spacer()
@@ -84,8 +84,8 @@ struct ContentView: View {
             .sheet(isPresented: $showingModal) {
                 NewCategoryModalView(isPresented: $showingModal, onSave: addKategorie)
             }
-            .sheet(isPresented: $showUpdateModal) {
-                UpdateModalView(isPresented: $showUpdateModal)
+            .sheet(isPresented: $showOnboardingView) {
+                OnboardingView(isPresented: $showOnboardingView)
             }
         }
         .preferredColorScheme(userTheme.colorScheme)
@@ -93,8 +93,8 @@ struct ContentView: View {
     }
     
     
-    func addKategorie(name: String, counter: Int) {
-        let neueKategorie = Category(name: name, counter: counter)
+    func addKategorie(name: String, counter: Int, emoji: String) {
+        let neueKategorie = Category(name: name, counter: counter, emoji: emoji)
         dataManager.categories.append(neueKategorie)
     }
     

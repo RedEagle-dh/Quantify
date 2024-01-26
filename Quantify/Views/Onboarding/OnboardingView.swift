@@ -37,13 +37,12 @@ struct FeatureView: View {
 }
 
 
-struct UpdateModalView: View {
+struct OnboardingView: View {
     
     @AppStorage("userTheme") private var userTheme: Theme = .systemDefault
     
-    @State private var showingBugFixes = false
-    
     @Binding var isPresented: Bool
+    
     
     var body: some View {
         NavigationView {
@@ -60,6 +59,7 @@ struct UpdateModalView: View {
                     Spacer()
                 }
                 
+                
                 FeatureView(icon: NSLocalizedString("featureOneIcon", comment: "Icon of first feature"),
                             text: NSLocalizedString("featureOneTitle", comment: "Title of first feature"),
                             desc: NSLocalizedString("featureOneDescription", comment: "Description of first feature")
@@ -68,63 +68,46 @@ struct UpdateModalView: View {
                             text: NSLocalizedString("featureTwoTitle", comment: "Title of second feature"),
                             desc: NSLocalizedString("featureTwoDescription", comment: "Description of second feature")
                 )
+                FeatureView(icon: NSLocalizedString("featureThreeIcon", comment: "Icon of third feature"),
+                            text: NSLocalizedString("featureThreeTitle", comment: "Title of third feature"),
+                            desc: NSLocalizedString("featureThreeDescription", comment: "Description of third feature")
+                )
 
-                HStack(alignment: .top) { // Hier wird die Ausrichtung auf .top gesetzt
-                    Image(systemName: "bandage")
-                        .foregroundColor(.blue)
-                        .imageScale(.large)
-                        .font(.system(size: 30))
-                        .frame(width: 65, height: 75)
-                    
-                    VStack(alignment: .leading) { // Ausrichtung des VStacks auf .leading
-                        Text(NSLocalizedString("featureThreeTitle", comment: "Title for bugfixes"))
-                            .font(.headline)
-                        
-                        Text(NSLocalizedString("featureThreeDescriptionBefore", comment: "Description for bugfixes"))
-                            .font(.subheadline)
-                            .foregroundColor(.gray)
-                        Button(action: {
-                            showingBugFixes = true
-                        }) {
-                            Text(NSLocalizedString("featureThreeDescriptionLinkFirst", comment: "First part of link"))
-                                .font(.subheadline)
-                                .foregroundColor(.gray)
-                            Text(NSLocalizedString("featureThreeDescriptionLinkSecond", comment: "Button of Buglist"))
-                                .font(.subheadline)
-                                .underline()
-                                .foregroundColor(.blue)
-                                
-                        }
-                    }
-                    .padding(.leading, 5) // Etwas Abstand zwischen Icon und Text
-                    
-                    Spacer()
-                }
                 
                 Spacer()
-                
-                Button(action: {
-                    isPresented = false
-                }) {
-                    Text(NSLocalizedString("updateModalButton", comment: "ContinueButton"))
-                        .font(.headline)
-                        .foregroundColor(.white)
-                        .padding()
-                        .frame(maxWidth: .infinity)
-                        .background(Color.blue)
-                        .cornerRadius(10)
+                VStack {
+                    Image(.dataPrivacyIcon)
+                                    .resizable()
+                                    .frame(width: 32, height: 32)
+                                Group {
+                                    Text(NSLocalizedString("privacyText", comment: "Text for privacy"))
+                                        .foregroundStyle(.secondary)
+                                }
+                                .multilineTextAlignment(.center)
+                                .font(.system(size: 10))
+                                .padding(.bottom, 24)
+                                .padding(.top, 4)
+                    Button(action: {
+                        isPresented = false
+                    }) {
+                        Text(NSLocalizedString("updateModalButton", comment: "ContinueButton"))
+                            .font(.headline)
+                            .foregroundColor(.white)
+                            .padding()
+                            .frame(maxWidth: .infinity)
+                            .background(Color.blue)
+                            .cornerRadius(10)
+                    }
                 }
+                
             }
             .padding()
         }
         .preferredColorScheme(userTheme.colorScheme)
-        .sheet(isPresented: $showingBugFixes) {
-            BugFixesModalView(isPresented: $showingBugFixes)
-        }
     }
 }
 
 
 #Preview {
-    UpdateModalView(isPresented: .constant(true))
+    OnboardingView(isPresented: .constant(true))
 }

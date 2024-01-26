@@ -8,18 +8,16 @@
 
 "updateModalTitle" = "Willkommen zurück!";
 
-"featureOneTitle" = "Hell vs. Dunkel";
-"featureOneDescription" = "Du kannst nun zwischen dem Hellen und dem Dunklen Modus umschalten.";
-"featureOneIcon" = "moon.stars";
+"featureOneTitle" = "Eigene Emoticons";
+"featureOneDescription" = "Du kannst deine Kategorien nun mit Emoticons ausstatten!";
+"featureOneIcon" = "face.smiling";
 
-"featureTwoTitle" = "Sprachvielfalt";
-"featureTwoDescription" = "Die App unterstützt nun Deutsch, Englisch und Ungarisch.";
-"featureTwoIcon" = "globe";
+"featureTwoTitle" = "Neues design";
+"featureTwoDescription" = "Das Design der Kategorienliste hat sich durch das Einführen der Emoticons verändert.";
+"featureTwoIcon" = "wand.and.stars";
 
-"featureThreeTitle" = "Fehlerbehebung";
-"featureThreeDescriptionBefore" = "Einige Fehler wurden behoben.";
-"featureThreeDescriptionLinkFirst" = "Siehe";
-"featureThreeDescriptionLinkSecond" = "Fehlerliste";
+"featureThreeTitle" = "Fehlerbehebungen";
+"featureThreeDescription" = "Einige Fehler wurden behoben. Für weitere Details sieh dir die Fehlerliste in den Einstellungen an.";
 "featureThreeIcon" = "bandage";
 
 "updateModalButton" = "Fortfahren";
@@ -50,7 +48,7 @@
 "appVersion" = "App-Version";
 "appBuildVersion" = "Build-Version";
 "releaseDateString" = "Veröffentlichungsdatum";
-"releaseDate" = "11. Januar 2024";
+"releaseDate" = "26. Januar 2024";
 
 "patchNotesString" = "Fehlerbehebungen";
 "patchNotesButton" = "Mehr";
@@ -62,3 +60,5 @@
 "lastModifiedDateLabel" = "Zuletzt geändert am";
 "categoryInfoTitle" = "Kategorie Info";
 "doneButton" = "Fertig";
+
+"privacyText" = "Ihre Privatsphäre ist unsere Priorität. Wir sammeln keine Daten über Ihre Nutzung dieser App. Genießen Sie unseren Service mit der Gewissheit, dass Ihre persönlichen Daten privat bleiben.";

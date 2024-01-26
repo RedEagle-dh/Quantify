@@ -8,18 +8,16 @@
 
 "updateModalTitle" = "Welcome back again!";
 
-"featureOneTitle" = "Light vs. Dark";
-"featureOneDescription" = "You can now switch between the light and the dark mode.";
-"featureOneIcon" = "moon.stars";
+"featureOneTitle" = "Custom emojis";
+"featureOneDescription" = "You can now select emojis to your categories!";
+"featureOneIcon" = "face.smiling";
 
-"featureTwoTitle" = "Multi Language";
-"featureTwoDescription" = "The app now supports English, German and Hungarian. More coming soon.";
-"featureTwoIcon" = "globe";
+"featureTwoTitle" = "New design";
+"featureTwoDescription" = "The design of the category list changed due to supporting emojis.";
+"featureTwoIcon" = "wand.and.stars";
 
 "featureThreeTitle" = "Bugfixes";
-"featureThreeDescriptionBefore" = "Some bugs were fixed.";
-"featureThreeDescriptionLinkFirst" = "See";
-"featureThreeDescriptionLinkSecond" = "Buglist";
+"featureThreeDescription" = "Some bugs were fixed. For more details check the buglist in the settings.";
 "featureThreeIcon" = "bandage";
 
 "updateModalButton" = "Continue";
@@ -50,7 +48,7 @@
 "appVersion" = "Version Number";
 "appBuildVersion" = "Build Number";
 "releaseDateString" = "Release Date";
-"releaseDate" = "11. January 2024";
+"releaseDate" = "26. January 2024";
 
 "patchNotesString" = "Patch Notes";
 "patchNotesButton" = "See more";
@@ -62,3 +60,5 @@
 "lastModifiedDateLabel" = "Last Modified On";
 "categoryInfoTitle" = "Category Info";
 "doneButton" = "Done";
+
+"privacyText" = "Your privacy is our priority. We don't collect any data regarding your usage of this app. Enjoy our service with the peace of mind that your personal information remains private.";

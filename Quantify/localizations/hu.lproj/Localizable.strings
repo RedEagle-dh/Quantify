@@ -8,18 +8,16 @@
 
 "updateModalTitle" = "Üdvözöljük újra!";
 
-"featureOneTitle" = "Világos vs. sötét";
-"featureOneDescription" = "Most már válthatsz a világos és a sötét üzemmód között.";
-"featureOneIcon" = "moon.stars";
+"featureOneTitle" = "Egyéni emotikonok";
+"featureOneDescription" = "Mostantól kiválaszthatod az emojikat a kategóriáihoz!";
+"featureOneIcon" = "face.smiling";
 
-"featureTwoTitle" = "Új nyelvek";
-"featureTwoDescription" = "Az alkalmazás mostantól támogatja az angol, német és magyar nyelvet.";
-"featureTwoIcon" = "globe";
+"featureTwoTitle" = "Új design";
+"featureTwoDescription" = "A kategóriák listájának kialakítása megváltozott az emojik támogatása miatt.";
+"featureTwoIcon" = "wand.and.stars";
 
-"featureThreeTitle" = "Hibaelhárítás";
-"featureThreeDescriptionBefore" = "A hibákat kijavítottuk. ";
-"featureThreeDescriptionLinkFirst" = "Lásd";
-"featureThreeDescriptionLinkSecond" = "Hibák";
+"featureThreeTitle" = "Hibajavítások";
+"featureThreeDescription" = "Néhány hibát kijavítottunk. További részletekért nézd meg a hibalistát a beállításoknál.";
 "featureThreeIcon" = "bandage";
 
 "updateModalButton" = "Folytatás";
@@ -50,7 +48,7 @@
 "appVersion" = "App-verzió";
 "appBuildVersion" = "Build-szám";
 "releaseDateString" = "Megjelenési dátum";
-"releaseDate" = "11. Január 2024";
+"releaseDate" = "26. Január 2024";
 
 "patchNotesString" = "Hiba kijavitások";
 "patchNotesButton" = "Lásd itt";
@@ -62,3 +60,5 @@
 "lastModifiedDateLabel" = "Utoljára Módosítva";
 "categoryInfoTitle" = "Kategória Információ";
 "doneButton" = "Kész";
+
+"privacyText" = "Az Ön magánélete számunkra elsődleges fontosságú. Nem gyűjtünk semmilyen adatot az alkalmazás használatával kapcsolatban. Élvezze szolgáltatásunkat azzal a nyugalommal, hogy személyes adatai bizalmasak maradnak.";

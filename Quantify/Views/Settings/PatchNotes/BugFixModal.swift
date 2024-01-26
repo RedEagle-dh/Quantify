@@ -8,7 +8,7 @@
 import Foundation
 import SwiftUI
 
-struct BugFixesModalView: View {
+struct PatchNotesView: View {
     @Binding var isPresented: Bool
     var body: some View {
         NavigationView {
@@ -17,6 +17,44 @@ struct BugFixesModalView: View {
                     Text("Patch Notes")
                         .font(.title)
                         .fontWeight(.bold)
+                    
+                    Group {
+                        Text("Version 1.0 (2024.0126.1)")
+                            .font(.headline)
+                            .padding(.top)
+                            .underline()
+                        Group {
+                            Text("App interface:")
+                                .fontWeight(.semibold)
+                                .padding(.top)
+                            Text("• Emote customization of categories")
+                            Text("• New design of the categories due to adding emotes")
+                        }
+                        
+                        Group {
+                            Text("Bugfixes:")
+                                .fontWeight(.semibold)
+                                .padding(.top)
+                            Text("• Fixed: Problem with showing Onboarding")
+                        }
+                    }
+                    
+                    Spacer()
+                    
+                    Group {
+                        Text("Version 1.0 (2024.0123.1)")
+                            .font(.headline)
+                            .padding(.top)
+                            .underline()
+                        Group {
+                            Text("App interface:")
+                                .fontWeight(.semibold)
+                                .padding(.top)
+                            Text("• Refactored the Onboarding view")
+                        }
+                    }
+                    
+                    Spacer()
                     
                     Group {
                         Text("Version 1.0 (2024.0111.2)")
@@ -104,5 +142,5 @@ struct BugFixesModalView: View {
 }
 
 #Preview {
-    BugFixesModalView(isPresented: .constant(true))
+    PatchNotesView(isPresented: .constant(true))
 }
